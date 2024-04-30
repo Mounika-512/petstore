@@ -56,11 +56,6 @@
     </site>
   </distributionManagement>
   <distributionManagement>
-    <site>
-      <id>gh-pages</id>
-      <name>Mybatis GitHub Pages</name>
-      <url>git:ssh://git@github.com/mybatis/jpetstore-6.git?gh-pages#</url>
-    </site>
      <repository>
          <id>flipkart</id>
          <name>Mithun Technologies Releases Nexus Repository</name>
