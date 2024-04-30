@@ -55,19 +55,7 @@
       <url>git:ssh://git@github.com/mybatis/jpetstore-6.git?gh-pages#</url>
     </site>
   </distributionManagement>
-  <distributionManagement>
-     <repository>
-         <id>flipkart</id>
-         <name>Mithun Technologies Releases Nexus Repository</name>
-         <url>http://192.168.33.10:8081/repository/flipkart1/</url>
-     </repository>
-     <snapshotRepository>
-	 <id>nexus</id>
-	 <name>Mithun Technologies Snapshot Nexus Repository </name>
-	 <url><http://192.168.33.10:8081/repository/flipkart//url>
-     </snapshotRepository>
-  </distributionManagement>
-    <dependencies>
+  <dependencies>
     
     <dependency>
       <groupId>org.mybatis</groupId>
