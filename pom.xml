@@ -56,7 +56,6 @@
     </site>
   </distributionManagement>
   <dependencies>
-    
     <dependency>
       <groupId>org.mybatis</groupId>
       <artifactId>mybatis</artifactId>
