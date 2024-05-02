@@ -252,6 +252,11 @@
             <goals>
               <goal>start</goal>
             </goals>
+          <configuration>
+              <container>
+              <timeout>0</timeout>
+              </container>
+          </configuration>
           </execution>
           <execution>
             <id>stop-container</id>
