@@ -28,4 +28,4 @@
       command: docker push ratnakumar/petstore:latest
  
     - name: Run container
-      command: docker run -d --name petstor2 --restart always -p 8082:8080 ratnakumar/petstore:latest
+      command: docker run -d --name petstor2 --restart=always -p 8082:8080 ratnakumar/petstore:latest
