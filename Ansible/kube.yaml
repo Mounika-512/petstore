@@ -11,4 +11,5 @@
         dest: /home/vagrant/
          # Use sudo for copying if required
    - name: Apply Deployment
+     command: kubectl taint nodes --all dedicated-
      command: kubectl apply -f /home/vagrant/deployment.yaml
