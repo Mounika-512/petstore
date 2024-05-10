@@ -8,7 +8,7 @@
     - name: Copy deployment.yaml to Kubernetes master
       copy:
         src: /var/lib/jenkins/workspace/petshop/deployment.yaml  # Assuming Jenkins workspace variables
-        dest: /opt/
+        dest: /home/vagrant/
          # Use sudo for copying if required
    - name: Apply Deployment
-     command: kubectl apply -f /opt/deployment.yaml
+     command: kubectl apply -f /home/vagrant/deployment.yaml
