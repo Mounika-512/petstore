@@ -1,5 +1,5 @@
 - name: docker build and push
-  hosts: all  # Replace with the hostname or IP address of your target server
+  hosts: local  # Replace with the hostname or IP address of your target server
   user: root
   become: yes  # Run tasks with sudo privileges
   vars:
